@@ -13,7 +13,7 @@ const myWebsiteTheme = {
   actions: {
     theme: {
       toggleUrl: ({ state }) => {
-        state.theme.isUrlVisible = !state.theme.isUrlVisible;
+        state.theme.isUrlVisible = !state.theme.isUrlVisible
       }
     },
   },
